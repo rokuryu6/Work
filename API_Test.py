@@ -4,13 +4,9 @@ COOKIE = {'...': '...'}
 
 BASE_URL = '...'
 
-###
-
 root_object_id = requests.get(BASE_URL + 'NdsObjects/GetTreeRootObjectId', verify=False, cookies=COOKIES)
 root_object_id = root_object_id.json()['data']
 id_tree = root_object_id['rootObjectId']
-
-###
 
 response_tree = requests.get(BASE_URL + 'NdsObjects/GetTree', params={'rootObjectId': id_tree}, verify=False, cookies=COOKIES)
 
@@ -20,8 +16,6 @@ for i in dict_tree:
     for c in i['children']:
         for v in c['children']:
             list_id_mo.append(v['data']['ndsObjectId'])
-
-###
 
 r = []
 for object_id in list_id_mo:
