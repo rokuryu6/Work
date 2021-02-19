@@ -1,6 +1,6 @@
 import requests
 
-COOKIE = {'MDD.Web.Prod.Operator.SharedCookie': 'CfDJ8Dn1Vet7b5FBpZowBv1IuXNMlk05EPK09oyQUiJz-Pt2tlVKbU-40B9v7vx8IaVz7aCmqpbs2nFc_AE4kaQT-Jktd0vkwErpqvwnlFNCQOEPg6Vpjz4RAD_0Gmw8tPeCdj6txrfJ-YwofbjzUe00hZX_zzGcMzmfIf1UAcX81lsTq4yo08CSKrLNHgiwk4l0_dp-ajAsofP39WAhwIQVK_OFzXFzD9qIX5s1IibWOuQhBdHkoUBxQZFTKzu7_F4CNPIu9BeGOepB5mNwPQd3bjoipsoDfOkxBIuMp-K1YtoL-DvBjUvlFAws1l59fEPVHb9X4m8s_ShtBL6crQxJU2sAc8XZniGt_0bs-XbQnJmM'}
+COOKIE = {'...': '...'}
 
 BASE_URL = '...'
 
