@@ -30,8 +30,6 @@ headers = {'Content-type': 'application/json',  # Определение тип�
            }
 data = J
 
-
-
 answer = requests.post(url, data=json.dumps(data), headers=headers)
 print(answer)
 
